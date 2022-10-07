@@ -311,7 +311,7 @@ gem 'sentry-sidekiq', '~> 5.1.1'
 
 # PostgreSQL query parsing
 #
-gem 'pg_query', '~> 2.1'
+gem 'pg_query', '~> 2.1', '>= 2.1.1'
 
 gem 'premailer-rails', '~> 1.10.3'
 
@@ -489,7 +489,7 @@ gem 'kas-grpc', '~> 0.0.2'
 
 gem 'grpc', '~> 1.42.0'
 
-gem 'google-protobuf', '~> 3.19.0'
+gem 'google-protobuf', '~> 3.19.6'
 
 gem 'toml-rb', '~> 2.0'
 
