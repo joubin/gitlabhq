@@ -7,7 +7,7 @@ gem 'rails', '~> 6.1.4.7'
 gem 'bootsnap', '~> 1.9.1', require: false
 
 # Responders respond_to and respond_with
-gem 'responders', '~> 3.0'
+gem 'responders', '~> 3.0', '>= 3.0.0'
 
 gem 'sprockets', '~> 3.7.0'
 
@@ -29,10 +29,10 @@ gem 'marginalia', '~> 1.10.0'
 gem 'declarative_policy', '~> 1.1.0'
 
 # Authentication libraries
-gem 'devise', '~> 4.7.2'
+gem 'devise', '~> 4.7.3'
 gem 'bcrypt', '~> 3.1', '>= 3.1.14'
-gem 'doorkeeper', '~> 5.5.0.rc2'
-gem 'doorkeeper-openid_connect', '~> 1.7.5'
+gem 'doorkeeper', '~> 5.5.0.0'
+gem 'doorkeeper-openid_connect', '~> 1.8.0'
 gem 'rexml', '~> 3.2.5'
 gem 'ruby-saml', '~> 1.13.0'
 gem 'omniauth', '~> 1.8'
@@ -101,7 +101,7 @@ gem 'rack-cors', '~> 1.0.6', require: 'rack/cors'
 
 # GraphQL API
 gem 'graphql', '~> 1.11.10'
-gem 'graphiql-rails', '~> 1.8'
+gem 'graphiql-rails', '~> 1.8', '>= 1.8.0'
 gem 'apollo_upload_server', '~> 2.1.0'
 gem 'graphql-docs', '~> 1.6.0', group: [:development, :test]
 gem 'graphlient', '~> 0.5.0' # Used by BulkImport feature (group::import)
@@ -111,7 +111,7 @@ gem 'hashie'
 gem 'hashie-forbidden_attributes'
 
 # Pagination
-gem 'kaminari', '~> 1.0'
+gem 'kaminari', '~> 1.2', '>= 1.2.1'
 
 # HAML
 gem 'hamlit', '~> 2.15.0'
@@ -268,7 +268,7 @@ gem 'sanitize', '~> 6.0'
 gem 'babosa', '~> 1.0.4'
 
 # Sanitizes SVG input
-gem 'loofah', '~> 2.2'
+gem 'loofah', '~> 2.19', '>= 2.19.1'
 
 # Working with license
 gem 'licensee', '~> 9.14.1'
@@ -311,7 +311,7 @@ gem 'sentry-sidekiq', '~> 5.1.1'
 
 # PostgreSQL query parsing
 #
-gem 'pg_query', '~> 2.1'
+gem 'pg_query', '~> 2.1', '>= 2.1.1'
 
 gem 'premailer-rails', '~> 1.10.3'
 
@@ -323,15 +323,15 @@ gem 'thrift', '>= 0.14.0'
 
 # I18n
 gem 'ruby_parser', '~> 3.15', require: false
-gem 'rails-i18n', '~> 6.0'
+gem 'rails-i18n', '~> 6.0', '>= 6.0.0'
 gem 'gettext_i18n_rails', '~> 1.8.0'
-gem 'gettext_i18n_rails_js', '~> 1.3'
+gem 'gettext_i18n_rails_js', '~> 1.3', '>= 1.3.0'
 gem 'gettext', '~> 3.3', require: false, group: :development
 
 gem 'batch-loader', '~> 2.0.1'
 
 # Perf bar
-gem 'peek', '~> 1.1'
+gem 'peek', '~> 1.1', '>= 1.1.0'
 
 # Snowplow events tracking
 gem 'snowplow-tracker', '~> 0.6.1'
@@ -466,7 +466,7 @@ gem 'activerecord-explain-analyze', '~> 0.1', require: false
 gem 'oauth2', '~> 1.4'
 
 # Health check
-gem 'health_check', '~> 3.0'
+gem 'health_check', '~> 3.0', '>= 3.0.0'
 
 # System information
 gem 'vmstat', '~> 2.3.0'
@@ -482,14 +482,14 @@ gem 'ssh_data', '~> 1.2'
 gem 'spamcheck', '~> 0.1.0'
 
 # Gitaly GRPC protocol definitions
-gem 'gitaly', '~> 14.10.0-rc1'
+gem 'gitaly', '~> 15.4.0'
 
 # KAS GRPC protocol definitions
 gem 'kas-grpc', '~> 0.0.2'
 
 gem 'grpc', '~> 1.42.0'
 
-gem 'google-protobuf', '~> 3.19.0'
+gem 'google-protobuf', '~> 3.19.6'
 
 gem 'toml-rb', '~> 2.0'
 
@@ -501,7 +501,7 @@ gem 'unleash', '~> 3.2.2'
 gem 'gitlab-experiment', '~> 0.7.1'
 
 # Structured logging
-gem 'lograge', '~> 0.5'
+gem 'lograge', '~> 0.11', '>= 0.11.2'
 gem 'grape_logging', '~> 1.7'
 
 # DNS Lookup
