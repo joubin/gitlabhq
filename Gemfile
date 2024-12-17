@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'rails', '~> 6.1.4.7'
+gem 'rails', '~> 7.0.8.7'
 
 gem 'bootsnap', '~> 1.9.1', require: false
 
@@ -101,8 +101,8 @@ gem 'rack-cors', '~> 1.0.6', require: 'rack/cors'
 
 # GraphQL API
 gem 'graphql', '~> 1.11.10'
-gem 'graphiql-rails', '~> 1.8'
-gem 'apollo_upload_server', '~> 2.1.0'
+gem 'graphiql-rails', '~> 1.10', '>= 1.10.0'
+gem 'apollo_upload_server', '~> 2.1.2'
 gem 'graphql-docs', '~> 1.6.0', group: [:development, :test]
 gem 'graphlient', '~> 0.5.0' # Used by BulkImport feature (group::import)
 
@@ -130,7 +130,7 @@ gem 'fog-local', '~> 0.6'
 gem 'fog-openstack', '~> 1.0'
 gem 'fog-rackspace', '~> 0.1.1'
 gem 'fog-aliyun', '~> 0.3'
-gem 'gitlab-fog-azure-rm', '~> 1.2.0', require: 'fog/azurerm'
+gem 'gitlab-fog-azure-rm', '~> 2.0.0', require: 'fog/azurerm'
 
 # for Google storage
 gem 'google-api-client', '~> 0.33'
@@ -152,7 +152,7 @@ gem 'faraday_middleware-aws-sigv4', '~>0.3.0'
 gem 'typhoeus', '~> 1.4.0' # Used with Elasticsearch to support http keep-alive connections
 
 # Markdown and HTML processing
-gem 'html-pipeline', '~> 2.13.2'
+gem 'html-pipeline', '~> 3.0.0'
 gem 'deckar01-task_list', '2.3.1'
 gem 'gitlab-markup', '~> 1.8.0'
 gem 'github-markup', '~> 1.7.0', require: 'github/markup'
@@ -170,7 +170,7 @@ gem 'asciidoctor-kroki', '~> 0.5.0', require: false
 gem 'rouge', '~> 3.27.0'
 gem 'truncato', '~> 0.7.11'
 gem 'bootstrap_form', '~> 4.2.0'
-gem 'nokogiri', '~> 1.12'
+gem 'nokogiri', '~> 1.15', '>= 1.15.7'
 gem 'escape_utils', '~> 1.1'
 
 # Calendar rendering
