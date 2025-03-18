@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'rails', '~> 6.1.4.7'
+gem 'rails', '~> 7.0.0.0'
 
 gem 'bootsnap', '~> 1.9.1', require: false
 
@@ -34,7 +34,7 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.14'
 gem 'doorkeeper', '~> 5.5.0.rc2'
 gem 'doorkeeper-openid_connect', '~> 1.7.5'
 gem 'rexml', '~> 3.2.5'
-gem 'ruby-saml', '~> 1.13.0'
+gem 'ruby-saml', '~> 1.18.0'
 gem 'omniauth', '~> 1.8'
 gem 'omniauth-auth0', '~> 2.0.0'
 gem 'omniauth-azure-activedirectory-v2', '~> 1.0'
@@ -48,7 +48,7 @@ gem 'omniauth-gitlab', '~> 1.0.2'
 gem 'omniauth-google-oauth2', '~> 0.6.0'
 gem 'omniauth-kerberos', '~> 0.3.0', group: :kerberos
 gem 'omniauth-oauth2-generic', '~> 0.2.2'
-gem 'omniauth-saml', '~> 1.10'
+gem 'omniauth-saml', '~> 1.10', '>= 1.10.6'
 gem 'omniauth-shibboleth', '~> 1.3.0'
 gem 'omniauth-twitter', '~> 1.4'
 gem 'omniauth_crowd', '~> 2.4.0'
@@ -95,14 +95,14 @@ gem 'gitlab_omniauth-ldap', '~> 2.1.1', require: 'omniauth-ldap'
 gem 'net-ldap', '~> 0.16.3'
 
 # API
-gem 'grape', '~> 1.5.2'
+gem 'grape', '~> 2.1.0'
 gem 'grape-entity', '~> 0.10.0'
 gem 'rack-cors', '~> 1.0.6', require: 'rack/cors'
 
 # GraphQL API
-gem 'graphql', '~> 1.11.10'
-gem 'graphiql-rails', '~> 1.8'
-gem 'apollo_upload_server', '~> 2.1.0'
+gem 'graphql', '~> 1.11.11'
+gem 'graphiql-rails', '~> 1.10', '>= 1.10.0'
+gem 'apollo_upload_server', '~> 2.1.2'
 gem 'graphql-docs', '~> 1.6.0', group: [:development, :test]
 gem 'graphlient', '~> 0.5.0' # Used by BulkImport feature (group::import)
 
@@ -181,7 +181,7 @@ gem 'diffy', '~> 3.3'
 gem 'diff_match_patch', '~> 0.1.0'
 
 # Application server
-gem 'rack', '~> 2.2.3'
+gem 'rack', '~> 2.2.13'
 # https://github.com/sharpstone/rack-timeout/blob/master/README.md#rails-apps-manually
 gem 'rack-timeout', '~> 0.5.1', require: 'rack/timeout/base'
 
@@ -489,7 +489,7 @@ gem 'kas-grpc', '~> 0.0.2'
 
 gem 'grpc', '~> 1.42.0'
 
-gem 'google-protobuf', '~> 3.19.0'
+gem 'google-protobuf', '~> 3.25.5'
 
 gem 'toml-rb', '~> 2.0'
 
