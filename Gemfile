@@ -147,7 +147,7 @@ gem 'elasticsearch-rails', '~> 6.1', require: 'elasticsearch/rails/instrumentati
 gem 'elasticsearch-api',   '~> 6.8.2'
 gem 'aws-sdk-core', '~> 3'
 gem 'aws-sdk-cloudformation', '~> 1'
-gem 'aws-sdk-s3', '~> 1'
+gem 'aws-sdk-s3', '~> 1', '>= 1.208.0'
 gem 'faraday_middleware-aws-sigv4', '~>0.3.0'
 gem 'typhoeus', '~> 1.4.0' # Used with Elasticsearch to support http keep-alive connections
 
